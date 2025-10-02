@@ -1,0 +1,176 @@
+/* ===============================
+   Global Styles
+================================ */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+    background-color: #fafafa;
+    color: #333;
+}
+
+/* Section spacing */
+section {
+    padding: 4rem 0;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    letter-spacing: 0.5px;
+}
+
+/* ===============================
+   Navbar
+================================ */
+.nav-wrapper {
+    padding: 0 2rem;
+}
+.nav-wrapper .brand-logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.nav-wrapper ul li a {
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.nav-wrapper ul li a:hover {
+    color: #ffca28; /* gold accent */
+}
+
+/* ===============================
+   Hero Section
+================================ */
+.section.center-align {
+    padding: 6rem 1rem;
+    background: linear-gradient(135deg, #2196f3, #1565c0);
+    color: white;
+}
+.section.center-align h1 {
+    font-size: 2.5rem;
+}
+.section.center-align h5 {
+    margin: 1rem 0;
+    font-weight: 400;
+}
+.section.center-align p {
+    max-width: 600px;
+    margin: 1rem auto 2rem;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+.section.center-align .btn {
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 0 2rem;
+}
+
+/* ===============================
+   Projects Section
+================================ */
+#projects .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 12px;
+    overflow: hidden;
+}
+#projects .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+#projects .card-image img {
+    height: 200px;
+    object-fit: cover;
+}
+#projects .card-content {
+    min-height: 120px;
+}
+
+/* ===============================
+   About Section
+================================ */
+#about {
+    background: #e3f2fd; /* light blue */
+}
+#about p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* ===============================
+   Contact Section
+================================ */
+#contact p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+#contact a {
+    color: #1565c0;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+#contact a:hover {
+    color: #0d47a1;
+}
+
+/* ===============================
+   Footer
+================================ */
+.page-footer {
+    padding: 1rem 0;
+}
+.page-footer p {
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+/* ===============================
+   Dark Mode
+================================ */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+body.dark-mode section {
+    background-color: transparent;
+}
+body.dark-mode .card {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+body.dark-mode #about {
+    background: #1a1a1a;
+}
+body.dark-mode #contact a {
+    color: #90caf9;
+}
+body.dark-mode #contact a:hover {
+    color: #42a5f5;
+}
+
+/* ===============================
+   Floating Dark Mode Button
+================================ */
+#dark-toggle {
+    z-index: 1000;
+    transition: background 0.3s;
+}
+#dark-toggle:hover {
+    background: #ffca28 !important;
+    color: black !important;
+}
+
+/* ===============================
+   Animations
+================================ */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+animation: fadeInUp 0.6s forwards;
+}
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
