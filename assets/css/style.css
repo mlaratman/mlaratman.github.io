@@ -203,3 +203,20 @@ body.dark-mode .profile-pic {
 .people-blue { color: #2196F3; }   /* uses currentColor inside SVG */
 .people-dark { color: #0d47a1; }
 .badge { position: relative; display:inline-flex; align-items:center; gap:8px; font-weight:700; }
+
+
+/* Make sure SVG icons expand to card container */
+.icon-people {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;   /* adjust depending on card size */
+    background: #1e1e1e; /* optional dark background */
+}
+
+.icon-people svg {
+    width: 80%;      /* scale down inside */
+    height: auto;
+    max-height: 160px;
+    color: #4fc3f7;  /* accent color */
+}
