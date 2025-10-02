@@ -84,6 +84,58 @@ h1, h2, h3, h4, h5 {
     min-height: 120px;
 }
 
+
+/* ===============================
+   Skills Section
+================================ */
+.skill-section {
+    background: #e3f2fd; /* light blue */
+    color: #222;
+}
+.skill-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+.skill-text {
+    color: #212121; /* titles/descriptions */
+}
+.skill-link {
+    color: #1565c0;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.skill-link:hover {
+    color: #0d47a1;
+}
+.skill-kits {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(260px, 1fr));
+    gap: 18px;
+}
+@media (max-width: 992px){ .skill-kits { grid-template-columns: 1fr; } }
+
+.kit-card {
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.08);
+    background: #fff;
+    padding: 16px 18px;
+    border: 1px solid #eaeaea;
+}
+.kit-title {
+    display: flex; align-items: center; gap: 8px;
+    margin: 0 0 8px; font-weight: 800; font-size: 1.25rem;
+    color: #1e88e5;
+}
+.kit-sub { margin: 0 0 12px; color: #607d8b; }
+
+.kit-chips { display:flex; flex-wrap:wrap; gap:10px; }
+.kit-chip {
+    display:inline-flex; align-items:center; gap:8px;
+    padding:10px 14px; border-radius:999px; font-weight:700;
+    border:1px solid #e0e0e0; background:#f7f9fc; color:#27496d;
+}
+.kit-chip i { font-size:18px; }
+
 /* ===============================
    About Section
 ================================ */
@@ -296,3 +348,13 @@ body.dark-mode .card-reveal {
         padding: 6px 8px;
     }
 }
+
+
+
+/* warna varian ringan */
+.kc-green  { background:#e8f5e9; color:#1b5e20; border-color:#c8e6c9; }
+.kc-blue   { background:#e3f2fd; color:#0d47a1; border-color:#bbdefb; }
+.kc-cyan   { background:#e0f7fa; color:#006064; border-color:#b2ebf2; }
+.kc-orange { background:#fff3e0; color:#e65100; border-color:#ffe0b2; }
+.kc-purple { background:#ede7f6; color:#4527a0; border-color:#d1c4e9; }
+.kc-grey   { background:#eceff1; color:#37474f; border-color:#cfd8dc; }
