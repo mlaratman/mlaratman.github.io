@@ -98,6 +98,19 @@ function applyLang(selectedLang) {
     updateCVLink(selectedLang);
 }
 
+
+function setActiveLangButton(lang) {
+    document.querySelectorAll(".lang-btn").forEach(btn => {
+        if (btn.getAttribute("data-lang") === lang) {
+            btn.classList.add("active");
+            btn.setAttribute("aria-pressed", "true");
+        } else {
+            btn.classList.remove("active");
+            btn.setAttribute("aria-pressed", "false");
+        }
+    });
+}
+
 // ------------------------------
 // Dynamic CV Link per Language
 // ------------------------------
@@ -121,6 +134,7 @@ document.querySelectorAll('.lang-btn').forEach(btn => {
 
         const selectedLang = this.getAttribute('data-lang');
         applyLang(selectedLang);
+        setActiveLangButton(selectedLang);
         localStorage.setItem('preferredLang', selectedLang);
     });
 });
@@ -130,6 +144,7 @@ document.querySelectorAll('.lang-btn').forEach(btn => {
 // ------------------------------
 const savedLang = localStorage.getItem('preferredLang') || 'en';
 applyLang(savedLang);
+setActiveLangButton(savedLang);
 
 // ------------------------------
 // Dark Mode Toggle
