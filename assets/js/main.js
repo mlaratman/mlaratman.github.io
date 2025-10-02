@@ -50,12 +50,15 @@ const lang = {
         navContact: "Contact",
         heroGreeting: "Hello, I'm Ismail Rio Handoyo",
         heroRole: "AI & Mobile Developer",
-        heroDesc: "Passionate about AI, Web, and Mobile development. Let's build something amazing together!",
+        heroDesc: "Building Android & Backend apps since 2018, focusing on solid architecture, real-time data integration" +
+            " and intuitive UI/UX to support large-scale business needs.",
         btnDownloadCV: "Download CV",
         sectionProjects: "Projects",
         sectionAbout: "About Me",
-        sectionAboutDesc: "I’m a software developer with a focus on AI, Web, and Mobile\n" +
-            "            development. I enjoy solving complex problems and creating useful, user-friendly applications.",
+        sectionAboutDesc: "I’m an Android & Backend developer with a focus on tranforming complex idea into fast, secure," +
+            " and easy to use with Mobile Device.\n" +
+            " With 7+ years of expiriences on FMCG, analyst, and mobile system.\n" +
+            " My Objective is simple : creating technology that is practical, reliable, and user friendly.",
         proj1Title: 'People Counting',
         proj1Desc: 'In-store counting for traffic, heatmap, and journey analytics. High accuracy and real-time.',
         proj2Title: 'Merchandiser App',
@@ -72,12 +75,16 @@ const lang = {
         navContact: "Kontak",
         heroGreeting: "Halo, Saya Ismail Rio Handoyo",
         heroRole: "Pengembang AI & Mobile",
-        heroDesc: "Bersemangat di bidang AI, Web, dan Mobile. Mari kita bangun sesuatu yang luar biasa bersama!",
+        heroDesc: "Membuat aplikasi Android & Backend sejak 2018, berfokus pada arsitektur solid, integrasi data real-time" +
+            " dan UI/UX yang intuitif untuk mendukung kebutuhan bisnis skala besar.",
         btnDownloadCV: "Unduh CV",
         sectionProjects: "Proyek",
         sectionAbout: "Tentang Saya",
-        sectionAboutDesc: "Saya developer software dengan fokus ke AI, Web, dan Mobile\n" +
-            "            development. Saya suka menyelesaikan masalah kompleks dan membuat aplikasi yang mudah digunakan oleh pengguna.",
+        sectionAboutDesc: "Saya developer Android & Backend dengan fokus ke mengubah ide kompleks menjadi aplikasi cepat, aman," +
+            " dan mudah digunakan pada " +
+            " Mobile Device.\n" +
+            " Dengan lebih dari 7+ tahun pengalaman di FMCG, analitik, dan sistem Mobile.\n" +
+            " Tujuan saya sederhana : menghadirkan teknologi yang praktis, mudah dipakai, dan dapat diandalkan.",
         proj1Title: 'People Counting',
         proj1Desc: 'Sistem counting di toko ritel untuk traffic, heatmap, dan journey analytics. Akurasi tinggi dan realtime.',
         proj2Title: 'Merchandiser App',
