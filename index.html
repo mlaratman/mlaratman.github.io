@@ -29,16 +29,16 @@
 <nav>
     <div class="nav-wrapper blue darken-3">
         <a href="#" class="brand-logo" data-i18n="navHome">Home</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="#projects" data-i18n="navProjects">Projects</a></li>
-            <li><a href="#about" data-i18n="navAbout">About</a></li>
-            <li><a href="#contact" data-i18n="navContact">Contact</a></li>
-<!--            <li>-->
-<!--                &lt;!&ndash; Language Switch &ndash;&gt;-->
-<!--                <a href="#!" class="lang" data-lang="en">EN</a> |-->
-<!--                <a href="#!" class="lang" data-lang="id">ID</a>-->
-<!--            </li>-->
-        </ul>
+<!--        <ul id="nav-mobile" class="right hide-on-med-and-down">-->
+<!--            <li><a href="#projects" data-i18n="navProjects">Projects</a></li>-->
+<!--            <li><a href="#about" data-i18n="navAbout">About</a></li>-->
+<!--            <li><a href="#contact" data-i18n="navContact">Contact</a></li>-->
+<!--&lt;!&ndash;            <li>&ndash;&gt;-->
+<!--&lt;!&ndash;                &lt;!&ndash; Language Switch &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;                <a href="#!" class="lang" data-lang="en">EN</a> |&ndash;&gt;-->
+<!--&lt;!&ndash;                <a href="#!" class="lang" data-lang="id">ID</a>&ndash;&gt;-->
+<!--&lt;!&ndash;            </li>&ndash;&gt;-->
+<!--        </ul>-->
     </div>
 </nav>
 
@@ -59,12 +59,25 @@
                 <p data-i18n="heroDesc">
                     Passionate about AI, Web, and Mobile development. Let's build something amazing together!
                 </p>
-                <a id="btn-download-cv"
-                   class="btn waves-effect waves-light blue darken-3"
-                   target="_blank"
-                   data-i18n="btnDownloadCV">
-                    Download CV
-                </a>
+                <div class="hero-cta">
+                    <a id="btn-download-cv"
+                       class="btn waves-effect waves-light blue darken-3"
+                       target="_blank"
+                       data-i18n="btnDownloadCV">
+                        <i class="material-icons left">file_download</i><span> Download CV</span>
+                    </a>
+
+                    <a href="#projects" class="btn-large blue waves-effect waves-light" id="cta-projects">
+                        <i class="material-icons left">work</i><span data-i18n="navProjects">Projects</span>
+                    </a>
+                    <a href="#contact" class="btn-large blue waves-effect waves-light" id="cta-contact">
+                        <i class="material-icons left">mail</i><span data-i18n="navContact">Contact</span>
+                    </a>
+                    <a href="#about" class="btn-large blue waves-effect waves-light" id="cta-about">
+                        <i class="material-icons left">people</i><span data-i18n="navAbout">About</span>
+                    </a>
+                </div>
+
             </div>
 
             <!-- Right: Photo -->
