@@ -42,6 +42,8 @@ if (yearEl) {
 // ------------------------------
 const lang = {
     en: {
+        labelId: 'Indonesia',
+        labelEn: 'English',
         navHome: "Home",
         navProjects: "Projects",
         navAbout: "About",
@@ -60,6 +62,8 @@ const lang = {
         sectionContact: "Contact"
     },
     id: {
+        labelId: 'Indonesia',
+        labelEn: 'Inggris',
         navHome: "Beranda",
         navProjects: "Proyek",
         navAbout: "Tentang",
