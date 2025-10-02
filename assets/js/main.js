@@ -94,7 +94,7 @@ function updateCVLink(langCode) {
 // ------------------------------
 // Language Switcher
 // ------------------------------
-document.querySelectorAll('.lang').forEach(btn => {
+document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.addEventListener('click', function () {
         const selectedLang = this.getAttribute('data-lang');
         applyLang(selectedLang);
