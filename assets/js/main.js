@@ -77,7 +77,7 @@ const lang = {
         sectionProjects: "Proyek",
         sectionAbout: "Tentang Saya",
         sectionAboutDesc: "Saya developer software dengan fokus ke AI, Web, dan Mobile\n" +
-            "            development. Saya Suka dengan menyelesaikan masalah kompleks dan membuat aplikasi yang mudah digunakan oleh pengguna.",
+            "            development. Saya suka menyelesaikan masalah kompleks dan membuat aplikasi yang mudah digunakan oleh pengguna.",
         proj1Title: 'People Counting',
         proj1Desc: 'Sistem counting di toko ritel untuk traffic, heatmap, dan journey analytics. Akurasi tinggi dan realtime.',
         proj2Title: 'Merchandiser App',
