@@ -110,6 +110,11 @@ function updateCVLink(langCode) {
 // ------------------------------
 document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.addEventListener('click', function () {
+        // Reset all buttons
+        document.querySelectorAll(".lang-btn").forEach(b => b.setAttribute("aria-pressed", "false"));
+        // Set clicked one as active
+        btn.setAttribute("aria-pressed", "true");
+
         const selectedLang = this.getAttribute('data-lang');
         applyLang(selectedLang);
         localStorage.setItem('preferredLang', selectedLang);

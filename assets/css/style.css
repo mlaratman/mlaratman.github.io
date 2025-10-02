@@ -164,6 +164,10 @@ body.dark-mode .about-link:hover {
 body.dark-mode .profile-pic {
     border: 5px solid #333;
 }
+body.dark-mode .lang-btn[aria-pressed="true"] {
+    background: #90caf9;   /* lighter blue for dark background */
+    color: #0d47a1;
+}
 
 /* ===============================
    Floating Dark Mode Button
@@ -271,8 +275,8 @@ body.dark-mode .profile-pic {
     align-items: center;
 }
 .lang-btn[aria-pressed="true"] {
-    background: #e3f2fd;
-    color: #0d47a1;
+    background: #1565c0;   /* darker blue */
+    color: #fff;           /* white text for contrast */
 }
 .lang-flag {
     font-size: 16px;
