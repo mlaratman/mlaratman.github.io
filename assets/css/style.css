@@ -174,3 +174,23 @@ animation: fadeInUp 0.6s forwards;
         transform: translateY(0);
     }
 }
+
+/* Profile photo style */
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid white;
+    border-radius: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Dark mode border */
+body.dark-mode .profile-pic {
+    border: 5px solid #333;
+}
