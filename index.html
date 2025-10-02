@@ -28,7 +28,9 @@
 <!-- Navbar -->
 <nav>
     <div class="nav-wrapper blue darken-3">
-        <a href="#" class="brand-logo" data-i18n="navHome">Home</a>
+        <a href="#" class="brand-logo" data-i18n="navHome">
+            <i class="material-icons left">home</i><span>Home</span>
+        </a>
 <!--        <ul id="nav-mobile" class="right hide-on-med-and-down">-->
 <!--            <li><a href="#projects" data-i18n="navProjects">Projects</a></li>-->
 <!--            <li><a href="#about" data-i18n="navAbout">About</a></li>-->
@@ -64,7 +66,7 @@
                        class="btn waves-effect waves-light blue darken-3"
                        target="_blank"
                        data-i18n="btnDownloadCV">
-                        <i class="material-icons left">file_download</i><span> Download CV</span>
+                        <i class="material-icons left">file_download</i><span>CV</span>
                     </a>
 
                     <a href="#projects" class="btn-large blue waves-effect waves-light" id="cta-projects">
@@ -122,8 +124,8 @@
                     <div class="chip blue white-text">Edge</div>
                 </div>
                 <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4"><span data-i18n="proj1.title">People Counting</span><i class="material-icons right">close</i></span>
-                    <p data-i18n="proj1.desc">Sistem counting di toko ritel untuk traffic, heatmap, dan journey analytics. Akurasi tinggi dan realtime.</p>
+                    <span class="card-title grey-text text-darken-4"><span data-i18n="proj1Title">People Counting</span><i class="material-icons right">close</i></span>
+                    <p data-i18n="proj1Desc">Sistem counting di toko ritel untuk traffic, heatmap, dan journey analytics. Akurasi tinggi dan realtime.</p>
                 </div>
             </div>
         </div>
@@ -153,16 +155,23 @@
 
                 </div>
                 <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4"><span data-i18n="proj2.title">Merchandiser App</span><span class="right"><i class="material-icons">more_vert</i></span></span>
-                    <p><a href="#" target="_blank" data-i18n="proj.case">Case Study</a></p>
+                      <span class="card-title activator about-text">
+                        <span data-i18n="proj2.title">Merchandiser App</span>
+                        <span class="right"><i class="material-icons">more_vert</i></span>
+                      </span>
+                    <p><a href="#" target="_blank" data-i18n="proj.case" class="about-link">Case Study</a></p>
                     <div class="chip blue white-text">Android</div>
                     <div class="chip blue white-text">Offline-first</div>
                 </div>
                 <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4"><span data-i18n="proj2.title">Merchandiser App</span><i class="material-icons right">close</i></span>
-                    <p data-i18n="proj2.desc">Sistem Merchandise dengan Akurasi tinggi dan realtime.</p>
+                      <span class="card-title about-text">
+                        <span data-i18n="proj2Title">Merchandiser App</span>
+                        <i class="material-icons right">close</i>
+                      </span>
+                    <p class="about-text" data-i18n="proj2Desc">
+                        Sistem Merchandise dengan Akurasi tinggi dan realtime.
+                    </p>
                 </div>
-            </div>
         </div>
         <!-- Card 3 -->
 <!--        <div class="col s12 m6 l4">-->
@@ -182,8 +191,7 @@
     </div>
 </section>
 
-<!-- About Section -->
-<section id="about" class="section blue lighten-5">
+<section id="about" class="section about-section">
     <div class="container">
         <h3 data-i18n="sectionAbout">About Me</h3>
         <p>
@@ -192,6 +200,7 @@
         </p>
     </div>
 </section>
+
 
 <!-- Contact Section -->
 <section id="contact" class="section container">

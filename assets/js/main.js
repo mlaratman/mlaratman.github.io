@@ -52,6 +52,10 @@ const lang = {
         btnDownloadCV: "Download CV",
         sectionProjects: "Projects",
         sectionAbout: "About Me",
+        proj1Title: 'People Counting',
+        proj1Desc: 'In-store counting for traffic, heatmap, and journey analytics. High accuracy and real-time.',
+        proj2Title: 'Merchandiser App',
+        proj2Desc: 'Merchandising system with high accuracy and real-time features.',
         sectionContact: "Contact"
     },
     id: {
@@ -65,6 +69,10 @@ const lang = {
         btnDownloadCV: "Unduh CV",
         sectionProjects: "Proyek",
         sectionAbout: "Tentang Saya",
+        proj1Title: 'People Counting',
+        proj1Desc: 'Sistem counting di toko ritel untuk traffic, heatmap, dan journey analytics. Akurasi tinggi dan realtime.',
+        proj2Title: 'Merchandiser App',
+        proj2Desc: 'Sistem Merchandise dengan Akurasi tinggi dan realtime.',
         sectionContact: "Kontak"
     }
 };
