@@ -54,6 +54,8 @@ const lang = {
         btnDownloadCV: "Download CV",
         sectionProjects: "Projects",
         sectionAbout: "About Me",
+        sectionAboutDesc: "I’m a software developer with a focus on AI, Web, and Mobile\n" +
+            "            development. I enjoy solving complex problems and creating useful, user-friendly applications.",
         proj1Title: 'People Counting',
         proj1Desc: 'In-store counting for traffic, heatmap, and journey analytics. High accuracy and real-time.',
         proj2Title: 'Merchandiser App',
@@ -74,6 +76,8 @@ const lang = {
         btnDownloadCV: "Unduh CV",
         sectionProjects: "Proyek",
         sectionAbout: "Tentang Saya",
+        sectionAboutDesc: "Saya developer software dengan fokus ke AI, Web, dan Mobile\n" +
+            "            development. Saya Suka dengan menyelesaikan masalah kompleks dan membuat aplikasi yang mudah digunakan oleh pengguna.",
         proj1Title: 'People Counting',
         proj1Desc: 'Sistem counting di toko ritel untuk traffic, heatmap, dan journey analytics. Akurasi tinggi dan realtime.',
         proj2Title: 'Merchandiser App',
