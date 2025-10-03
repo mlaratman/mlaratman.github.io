@@ -360,6 +360,9 @@ body.dark-mode .card-reveal {
 }
 
 
+.light-text {
+    font-weight: normal; /* 400 */
+}
 
 /* warna varian ringan */
 .kc-green  { background:#e8f5e9; color:#1b5e20; border-color:#c8e6c9; }
