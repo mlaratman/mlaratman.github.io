@@ -49,7 +49,7 @@ const lang = {
         navAbout: "About",
         navContact: "Contact",
         heroGreeting: "Hello, I'm Ismail Rio Handoyo",
-        heroRole: "AI & Mobile Developer",
+        heroRole: "Android Apps & Backend Developer",
         heroDesc: "Building Android & Backend apps since 2018, focusing on solid architecture, real-time data integration" +
             " and intuitive UI/UX to support large-scale business needs.",
         btnDownloadCV: "Download CV",
@@ -89,7 +89,7 @@ const lang = {
         navAbout: "Tentang",
         navContact: "Kontak",
         heroGreeting: "Halo, Saya Ismail Rio Handoyo",
-        heroRole: "Pengembang AI & Mobile",
+        heroRole: "Pengembang aplikasi Android & Backend",
         heroDesc: "Membuat aplikasi Android & Backend sejak 2018, berfokus pada arsitektur solid, integrasi data real-time" +
             " dan UI/UX yang intuitif untuk mendukung kebutuhan bisnis skala besar.",
         btnDownloadCV: "Unduh CV",
