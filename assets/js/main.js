@@ -64,6 +64,21 @@ const lang = {
         proj2Title: 'Merchandiser App',
         proj2Desc: 'Merchandising system with high accuracy and real-time features.',
         projCase: 'Case Study',
+        kitMobile: 'Mobile',
+        kitMobileub: 'Core mobile stack for modern Android apps.',
+
+        kitBackend: 'Backend',
+        kitBackendSub: 'APIs that are reliable, secure, and scalable.',
+        kitDb: 'Database',
+        kitDbSub: 'Reliable databases for analytics & apps.',
+        kitAi: 'AI / Computer Vision',
+        kitAiSub: 'Practical AI on-device & at the edge.',
+        kitUiux: 'UI / UX',
+        kitUiuxSub: 'Usability-first with clean, consistent interfaces.',
+
+        aboutExp: 'Experience',
+        aboutExpSub: 'Some of the major client i have works with in 7+ years.',
+
         sectionContact: "Contact"
     },
     id: {
@@ -90,6 +105,21 @@ const lang = {
         proj2Title: 'Merchandiser App',
         proj2Desc: 'Sistem Merchandise dengan Akurasi tinggi dan realtime.',
         projCase: 'Studi Kasus',
+        kitMobile: 'Mobile',
+        kitMobileub: 'Stack mobile inti untuk aplikasi Android modern.',
+
+        kitBackend: 'Backend',
+        kitBackendSub: 'API yang andal, aman, dan scalable.',
+        kitDb: 'Database',
+        kitDbSub: 'Analitik cepat + storage transaksional yang stabil.',
+        kitAi: 'AI / Computer Vision',
+        kitAiSub: 'AI praktis di perangkat & edge.',
+        kitUiux: 'UI / UX',
+        kitUiuxSub: 'Fokus usability dengan antarmuka yang konsisten.',
+
+        aboutExp: 'Pengalaman',
+        aboutExpSub: 'Saya pernah bekerja sama dengan beberapa klient besar berikut selama 7+ tahun.',
+
         sectionContact: "Kontak"
     }
 };
